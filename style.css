@@ -1,0 +1,52 @@
+body {
+	font-family: Comic Sans MS;
+}
+
+.mainDIV {
+	text-align: center;
+}
+
+.yesbuttonCLASS {
+	border: none;
+	border-radius: 100px;
+	background-color: rgb(94, 94, 255);
+	padding: 10px;
+	transition: 0.15s;
+}
+.yesbuttonCLASS:hover 
+{
+	background-color: rgb(136, 136, 255);
+}
+
+.yesbuttonCLASS:active {
+	background-color: rgb(75, 75, 202);
+}
+
+.nobuttonCLASS {
+	border: none;
+	border-radius: 100px;
+	background-color: rgb(255, 94, 94);
+	padding: 10px;
+	width: 70px;
+	transition: 0.15s;
+}
+
+.nobuttonCLASS:hover {
+	background-color: rgb(255, 129, 129);
+}
+
+.nobuttonCLASS:active {
+	background-color: rgb(189, 72, 72);
+}
+
+.imageDIV {
+	text-align: center;
+}
+
+.newDIV {
+	text-align: center;
+}
+
+img {
+	width: 30%;
+}
