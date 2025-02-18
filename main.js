@@ -28,7 +28,7 @@ let countClicker = 0;
 
 noButton.onclick = function () {
   countClicker++;
-  faceImg.src = `/assets/valentines/face${countClicker}.png`;
+  faceImg.src = `/assets/tine/face${countClicker}.png`;
   questionText.innerHTML = phrasesArr[countClicker];
   expressionText.innerHTML = expressionsArr[countClicker];
   noButton.innerHTML = noButtonTextArr[countClicker];
@@ -38,7 +38,7 @@ noButton.onclick = function () {
     textCreate.innerHTML =
       "cursed to be realistic oil painting deku, truly an unfortunate fate.";
     textCreate.setAttribute("style", `font-family: Courier`);
-    imageCreate.setAttribute("src", `/assets/valentines/deku.png`);
+    imageCreate.setAttribute("src", `/assets/tine/deku.png`);
 
     newDiv.appendChild(textCreate);
     newDiv.appendChild(imageCreate);
