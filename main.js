@@ -38,7 +38,7 @@ noButton.onclick = function () {
     textCreate.innerHTML =
       "cursed to be realistic oil painting deku, truly an unfortunate fate.";
     textCreate.setAttribute("style", `font-family: Courier`);
-    imageCreate.setAttribute("src", `/assets/tine/deku.png`);
+    imageCreate.setAttribute("src", `assets/tine/deku.png`);
 
     newDiv.appendChild(textCreate);
     newDiv.appendChild(imageCreate);
@@ -49,7 +49,7 @@ noButton.onclick = function () {
 };
 
 yesButton.onclick = function () {
-  imageCreate.setAttribute("src", `/assets/valentines/adacher.gif`);
+  imageCreate.setAttribute("src", `assets/valentines/adacher.gif`);
   document.querySelector("body").style = "background-color: pink;";
 
   newDiv.appendChild(imageCreate);
