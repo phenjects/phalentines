@@ -28,7 +28,7 @@ let countClicker = 0;
 
 noButton.onclick = function () {
   countClicker++;
-  faceImg.src = `/assets/tine/face${countClicker}.png`;
+  faceImg.src = `assets/tine/face${countClicker}.png`;
   questionText.innerHTML = phrasesArr[countClicker];
   expressionText.innerHTML = expressionsArr[countClicker];
   noButton.innerHTML = noButtonTextArr[countClicker];
