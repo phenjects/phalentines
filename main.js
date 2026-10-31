@@ -49,7 +49,7 @@ noButton.onclick = function () {
 };
 
 yesButton.onclick = function () {
-  imageCreate.setAttribute("src", `assets/valentines/adacher.gif`);
+  imageCreate.setAttribute("src", `/assets/valentines/adacher.gif`);
   document.querySelector("body").style = "background-color: pink;";
 
   newDiv.appendChild(imageCreate);
